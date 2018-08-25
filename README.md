@@ -9,4 +9,4 @@ Files include :
 Features:
 JavaScript chat bot having instant responses using js/jQuery methods such as :
 1. $("#message").keypress(function(){})
-2. $("#display").scrollTop($("#display").prop("scrollHeight"));
+2. $("#display").scrollTop($("#display").prop("scrollHeight")); etc....
