@@ -1,0 +1,55 @@
+<!DOCTYPE html >
+<html >
+<head>
+<link rel="stylesheet" href="css/Chat_webpage v.0.1.css" type="text/css">
+<title>Just Chat it out...</title><link rel="icon" type="image/jpg" href="id-og-image.jpg">
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/Chat_video.js"></script>
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.webcam.min.js"></script>
+
+<title>Video Chat only in The only Friend</title>
+</head>
+
+<body>
+<div id="header">
+<h1 style="font-family:'Comic Sans MS', cursive;">The Only Friend</h1>
+</div>
+<body>
+
+<span><a href="#" class="myButton" style="margin:0px auto; margin-top:75px; margin-left:450px;" id="Start_video">Start Video Chat</a>
+<a href="index.html" class="myButton" style="margin:0px auto; margin-top:75px;" id="back">Back to AI Chat</a> </span>
+<center>
+
+
+
+
+<div  id="video_display" style="padding-right:0px; ">
+<div id="overlay" style="display:none;"><img src="Images/3d8064758e54ec662e076b6ca54aa90e.gif" alt="Server is loading ...wait for few minutes" id="loading" ></div></center>
+<video id="video1" width="320px;" height="240px;" muted >
+  <source src="Talk_to_Strangers_Free_Chatroulette_Webcam_Chat_fo.mp4" type="video/mp4">
+ 
+Your browser does not support the video tag.
+</video>
+
+<video autoplay></video> 
+
+<div id="webcam" style="display:inline; float:left; margin-left:350px;"></div>
+<p><a href="javascript:webcam.capture();void(0);"></a></p>
+<script type="text/javascript">
+jQuery("#webcam").webcam({
+	width: 320,
+	height: 240,
+	mode: "callback",
+	swffile: "jscam.swf",
+});
+</script>
+
+ 
+<script src="webcam.js"></script>
+
+</div>
+
+
+</body>
+</html>
