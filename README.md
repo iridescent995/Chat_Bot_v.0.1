@@ -2,6 +2,9 @@
 
 Chat bot made using jQuery a fast, small, and feature-rich JavaScript library.
 
+###How to start:
+Open the index.html file
+
 Files include :
 1. Chat Bot 
 2. Dummy Video Chat Application
